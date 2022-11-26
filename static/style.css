@@ -1,0 +1,493 @@
+/* Color Theme Swatches in Hex */
+.PKP-Intercity-–-Train-Ticket-Booking-App-(concept)-1-hex { color: #0F1AF2; }
+.PKP-Intercity-–-Train-Ticket-Booking-App-(concept)-2-hex { color: #2947F2; }
+.PKP-Intercity-–-Train-Ticket-Booking-App-(concept)-3-hex { color: #1B378C; }
+.PKP-Intercity-–-Train-Ticket-Booking-App-(concept)-4-hex { color: #3565F2; }
+.PKP-Intercity-–-Train-Ticket-Booking-App-(concept)-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+.PKP-Intercity-–-Train-Ticket-Booking-App-(concept)-1-rgba { color: rgba(14, 25, 242, 1); }
+.PKP-Intercity-–-Train-Ticket-Booking-App-(concept)-2-rgba { color: rgba(41, 71, 242, 1); }
+.PKP-Intercity-–-Train-Ticket-Booking-App-(concept)-3-rgba { color: rgba(26, 55, 140, 1); }
+.PKP-Intercity-–-Train-Ticket-Booking-App-(concept)-4-rgba { color: rgba(53, 100, 242, 1); }
+.PKP-Intercity-–-Train-Ticket-Booking-App-(concept)-5-rgba { color: rgba(12, 12, 12, 1); }
+
+/* Color Theme Swatches in HSLA */
+.PKP-Intercity-–-Train-Ticket-Booking-App-(concept)-1-hsla { color: hsla(236, 89, 50, 1); }
+.PKP-Intercity-–-Train-Ticket-Booking-App-(concept)-2-hsla { color: hsla(230, 88, 55, 1); }
+.PKP-Intercity-–-Train-Ticket-Booking-App-(concept)-3-hsla { color: hsla(225, 68, 32, 1); }
+.PKP-Intercity-–-Train-Ticket-Booking-App-(concept)-4-hsla { color: hsla(225, 88, 57, 1); }
+.PKP-Intercity-–-Train-Ticket-Booking-App-(concept)-5-hsla { color: hsla(0, 0, 5, 1); }
+
+
+ 
+
+
+/* Universal*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height:1.7;
+    padding: 1.875rem;
+    
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+    font-weight:bold;
+    color:#0F1AF2;
+}
+
+h2 {
+    font-family:'Ubuntu', sans-serif;
+    font-size: 3rem;
+    color: #2947F2; 
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+
+
+/* Hero/Header*/
+
+.header {
+    height:95vh;
+    background-color:#fff;
+    background-size:cover;
+    background-position:top;
+    position: relative;
+    display: flex;
+    padding: 1rem;
+
+}
+
+.heading-container-primary {
+    padding-left: 4rem;
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.heading-title-container {
+   
+   padding-bottom: 1rem;
+   padding-top: 4rem;
+   
+}
+
+
+.title {
+    order: 1;
+
+    
+    animation-name: moveInLeft;
+    animation-duration: .75s;
+    animation-timing-function: ease-in-out;
+
+}
+
+.subtitle {
+    font-weight: 300;
+    order: 2;
+
+    animation-name: moveInLeft;
+    animation-duration: .75s;
+    animation-timing-function: ease-in-out;
+    animation-delay: .1s;
+
+}
+
+.location {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight:lighter;
+
+    color: #0d0d0d;
+
+    order: 3;
+
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+
+    animation-name: moveInLeft;
+    animation-duration: .75s;
+    animation-timing-function: ease-in-out;
+    animation-delay: .2s;
+}
+
+/* Title Animation*/
+
+@keyframes moveInLeft {
+
+    0% {
+        opacity: 0;
+        transform: translateX(-20rem);
+
+    }
+
+   20% {
+        opacity: 0;
+   }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0rem);
+    }
+
+}
+
+
+
+/* Button animation */
+
+.btn {
+    text-
+    font-size: .875rem;
+    font-family: 'Ubuntu', sans-serif;
+    color:#fff;
+
+    border: hidden;
+    border-radius:.625rem;
+    border-color: none;
+    background-color:#2947F2;
+    text-decoration: none;
+
+    padding: .625rem 1.25rem;
+
+    animation-name: moveInLeft;
+    animation-duration: .75s;
+    animation-timing-function: ease-in-out;
+    animation-delay: .3s;
+}
+
+.btn:hover {
+    transform: translateY(-0.1875rem);
+    box-shadow: 0 .625rem 1.25rem rgba(0,0,0,.2);
+}
+
+.btn:active {
+    transform: translateY(-0.0625rem);
+    box-shadow: 0 .3125rem .625rem rgba(0,0,0,.2);
+}
+
+
+/* About me */
+
+.aboutme-container {
+    background-image: linear-gradient(to right bottom, #3564f2c2, #0f1af2);
+    margin-top: 8rem;
+    padding: 4rem 2rem 4rem 4rem;
+    position: relative;
+    display: flex;
+    clip-path: polygon(0 7%, 100% 0, 100% 93%, 0 100%);
+    
+
+}
+
+.headshot-container {
+    margin-right: 5rem;
+    margin-top: 1rem;
+    float:left;
+
+}
+
+.headshot-img {
+    border: solid;
+    border-width: .3rem;
+    border-radius: 50%;
+    border-color: #fff;
+}
+
+
+.aboutme-text {
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+}
+
+.content {
+    color: #fff;
+}
+ 
+
+
+
+/* Strenghts section*/
+
+.strengths-main {
+    margin-top: 10rem;
+    
+}
+
+.strengths-title-container {
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    margin-bottom:3rem;
+    
+}
+
+.section-title {
+    align-self: center;
+}
+
+.row{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    height: 22rem;
+    width:13rem;
+    margin:1rem;
+    border-radius: .375rem;
+    box-shadow: 0 .37rem 1rem rgba(0,0,0,.35);
+    
+}
+
+.card:hover {
+    transform: translateY(-1.875rem);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+}
+
+.card-img {
+    height: 9rem;
+    width: 13rem;
+    border-top-left-radius: .375rem;
+    border-top-right-radius: .375rem;
+
+
+}
+
+.card-title {
+    font-family: 'Ubuntu', sans-serif;
+    text-align:center;
+    color:#3565F2;
+}
+
+.card-text {
+    padding: .1rem 1rem .5rem 1rem;
+    font-family: 'Open sans', sans-serif;
+    text-align:center;
+    font-size: .75rem;
+}
+
+
+
+/* Skills Section*/
+
+.skills-main-container {
+    background-image: linear-gradient(to right bottom, #3564f2c2, #0f1af2);
+    margin-top: 8rem;
+    padding: 4rem 2rem 4rem 4rem;
+    position: relative;
+    clip-path: polygon(0 7%, 100% 0, 100% 93%, 0 100%);
+}
+
+.skills-title-container {
+    display: flex;
+    justify-content: center;    
+}
+
+.skills-title {
+    font-family: 'Ubuntu', sans-serif;
+    color:#fff;
+    align-self: center;
+    padding-bottom: 2rem;
+}
+
+.skills-subheading-container {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sales-tag-container {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin: 1rem 5rem 2rem 5rem;
+}
+
+.tag {
+    border: solid;
+    border-width: .2rem;
+    background-color:#fff;
+    border-radius:1rem;
+    border-color: #1B378C;
+
+    color:#2947F2;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight:600;
+
+
+    padding: .5rem 1rem;
+    margin: .2rem .3rem;
+        
+} 
+
+
+.tag:hover{
+    transform: translateY(-0.1875rem);
+    box-shadow: 0 .625rem 1.25rem rgba(0,0,0,.2);
+    background-color: salmon;
+    border-color:crimson;
+    color:crimson;
+}
+
+.fitness-tag-container {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin: 1rem 5rem 2rem 5rem;
+
+}
+
+.others-tag-container {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin: 1rem 5rem 2rem 5rem;
+}
+
+
+
+
+/*professional epxerience*/
+
+.profexp-container-main {
+    margin-top: 10rem;
+}
+
+.profexp-head-container {
+    display:flex;
+
+    justify-content: center;
+}
+
+.jobs-container {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+    margin-top: 2rem;
+}
+
+.job-card {
+    background-color: #3565F2;
+    color: #fff;
+    border-radius: .375rem;
+    box-shadow: 0 .375rem 1rem rgba(0,0,0,.35);
+
+
+    margin: 1rem;
+    padding: 1rem 2rem;
+    height: 22rem;
+    width: 18rem;
+}
+
+.job-card:hover {
+    transform: translateY(-1.875rem);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+}
+
+
+
+.jobtitle-text {
+    font-size: 1.25rem;
+    font-family: 'Ubuntu', sans-serif;
+
+    color:#fff;
+    text-align: center;
+}
+
+.job-subheading {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+
+    color: #0d0d0d;
+}
+
+.job-description {
+    padding-top: .3rem;
+    font-size: .75rem;
+}
+
+/* Contact Me footer */
+
+.contact-me-container {
+    background-image: linear-gradient(to right bottom, #3564f2c2, #0f1af2);
+    margin-top: 8rem;
+    padding: 4rem 2rem 4rem 4rem;
+    position: relative;
+    clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 100%);
+}
+
+.cm-title-container {
+    display: flex;
+    justify-content: center; 
+}
+
+.contact-me-title {
+    font-family: 'Ubuntu', sans-serif;
+    color:#fff;
+    align-self: center;
+    padding-bottom: 2rem;
+   
+}
+
+.cm-content {
+    display:flex;
+    justify-content: center;
+}
+
+.cm-text {
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.5rem;
+    text-align: center;
+}
+
+.email-link:hover {
+    color: salmon;
+}
+
+.linkedIn-link:hover {
+    color: salmon;
+}
